@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .warapper {
+            height: 700px;
+            width: 1089px;
+            background-color: antiquewhite;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        header {
+            height: 150px;
+            width: 100%;
+            background-image: url(../img/AnhMap.PNG);
+            position: relative;
+        }
+        
+        nav {
+            height: 50px;
+            width: 1089px;
+            background-color: rgb(82, 49, 7);
+        }
+        
+        .content {
+            height: 350px;
+            width: 1089px;
+            background-color: rgb(135, 161, 163);
+        }
+        
+        aside {
+            height: 350px;
+            width: 40%;
+            background-color: rgb(44, 207, 131);
+            float: left;
+        }
+        
+        section {
+            height: 350px;
+            width: 60%;
+            background-color: rgb(97, 72, 207);
+            float: left;
+        }
+        
+        footer {
+            height: 150px;
+            width: 100%;
+            background-color: rgb(126, 12, 40);
+        }
+        
+        .menu li {
+            height: 200px;
+            width: 50px;
+            background-color: bisque;
+            list-style: none;
+            line-height: 50px;
+            text-indent: 15px;
+            position: absolute;
+            border-radius: 10px;
+            border: 1px solid blue;
+        }
+        
+        menu li :nth-child(1) {
+            top: 80px;
+            right: 840px;
+        }
+        
+        menu li :nth-child(2) {
+            top: 80px;
+            right: 635px;
+        }
+        
+        menu li :nth-child(3) {
+            top: 80px;
+            right: 430px;
+        }
+        
+        menu li :nth-child(4) {
+            top: 80px;
+            right: 225px;
+        }
+        
+        menu li :nth-child(5) {
+            top: 80px;
+            right: 20px;
+        }
+        
+        li a {
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .menu li:hover {
+            background-color: blue;
+        }
+        
+        menu li:hover>a {
+            font-style: italic;
+            color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="warapper">
+        <header>
+
+        </header>
+        <Nav>
+            <ul class="menu">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </Nav>
+
+        <div class="content">
+            <aside>
+                <article>
+
+                </article>
+            </aside>
+            <section>
+                <article>
+
+                </article>
+            </section>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+</body>
+
+</html>
